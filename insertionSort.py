@@ -1,6 +1,7 @@
+
 def insertion_sort(list):  
-  ''' for each element aj, jϵ[1,n-1], compare aj with all elements to its left, ai, iϵ[j-1,j-2...0], 
-      shift each aj right until aj is smaller than ai, then insert aj at that position'''
+  ''' for each element aj, jϵ[1,n-1], compare aj with all elements in left subarray (sorted), ai, iϵ[j-1,j-2...0], 
+      shift each aj right until aj is smaller than ai, then insert aj at this position'''
   
   ''' best case: Θ(n) '''
   ''' worst case: Θ(n^2) '''
