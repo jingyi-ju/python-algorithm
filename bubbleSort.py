@@ -19,3 +19,4 @@ def optimized_bubble_sort(list):
                 sorted = False
         if sorted:
             break
+ 
